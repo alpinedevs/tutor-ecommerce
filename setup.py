@@ -12,7 +12,7 @@ with io.open(os.path.join(here, "tutorecommerce", "__about__.py"), "rt", encodin
     exec(f.read(), about)
 
 setup(
-    name="tutor-ecommerce",
+    name="tutor-ecommerce-acs",
     version=about["__version__"],
     url="https://docs.tutor.overhang.io/",
     project_urls={
@@ -30,7 +30,7 @@ setup(
     include_package_data=True,
     python_requires=">=3.5",
     install_requires=["tutor>=13.0.0,<14.0.0", "tutor-discovery>=13.0.0,<14.0.0", "tutor-mfe>=13.0.0,<14.0.0"],
-    entry_points={"tutor.plugin.v0": ["ecommerce = tutorecommerce.plugin"]},
+    entry_points={"tutor.plugin.v0": ["ecommerce-acs = tutorecommerce.plugin"]},
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
