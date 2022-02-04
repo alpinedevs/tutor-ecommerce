@@ -60,7 +60,7 @@ config = {
         },
         "PAYMENT_MFE_APP": {
             "name": "payment",
-            "repository": "https://github.com/edx/frontend-app-payment",
+            "repository": "https://github.com/alpinedevs/frontend-app-payment",
             "port": 1998,
             "env": {
                 "production": {
