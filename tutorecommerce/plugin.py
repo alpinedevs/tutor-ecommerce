@@ -61,6 +61,7 @@ config = {
         "PAYMENT_MFE_APP": {
             "name": "payment",
             "repository": "https://github.com/alpinedevs/frontend-app-payment",
+            "version": "features/no_cc/maple/0",
             "port": 1998,
             "env": {
                 "production": {
